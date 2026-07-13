@@ -1,4 +1,6 @@
 import { Parent } from "./pages/Parent";
+import { Counter } from "./Hooks/useState/Counter";
+import { Name } from "./Hooks/useState/Name";
 
 const App = () => {
 
@@ -10,6 +12,8 @@ const App = () => {
   return (
     <>
       <Parent dataa={dataa} />
+      <Counter/>
+      <Name/>
     </>
   );
 };
