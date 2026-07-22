@@ -52,7 +52,8 @@ export const Form = ({ onSubmit }) => {
                 />
 
                 <input type="submit" value="Submit" />
-            </form>
+                
+            </form> 
         </>
     );
 };

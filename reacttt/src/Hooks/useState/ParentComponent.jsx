@@ -20,7 +20,7 @@ export default function ParentComponent() {
         <>
             <Form onSubmit={handleFormSubmit} />
 
-            <hr />
+            
 
             <DisplayComponent displayData={displayData} />
         </>

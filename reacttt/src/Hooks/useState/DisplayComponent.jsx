@@ -9,6 +9,7 @@ export default function DisplayComponent({ displayData }) {
             <h2>Name : {displayData.name}</h2>
             <h2>Email : {displayData.email}</h2>
             <h2>Place : {displayData.place}</h2>
+            <hr />
         </>
     );
 }

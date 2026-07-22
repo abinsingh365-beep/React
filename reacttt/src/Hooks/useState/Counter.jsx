@@ -5,7 +5,7 @@ export const Counter = ()=>{
 
     return(
         <>
-        <h1>{count}</h1>
+        <h1 className="text-red-700">{count}</h1>
         <button onClick={() => setCount(count + 1)}> Num Increase</button><br /><br />
 
         <button onClick={() => setCount(count - 1)}> Num Decrease</button><br /><br />
