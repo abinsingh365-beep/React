@@ -4,6 +4,7 @@ import ParentComponent from "./Hooks/useState/ParentComponent";
 import ConditionalRendering from "./conditionalRendering/ConditionalRendering";
 import TailNavbar from "./TailwindNavbar/TailwindNavbarTesting";
 import BasicRouting from "./BasicRouting1/BasicRouting1.jsx";
+import UseEffect from "./Hooks/useState/UseEffect/UseEffectComponent.jsx";
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
       <ConditionalRendering/>
       <TailNavbar/>
       <BasicRouting/>
+      
       
     </>
   );
